@@ -3,7 +3,7 @@ const User = db.users;
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const auth = require("../middleware/auth");
-var secretkey = 'archindiadggdgdgdterfgfchfhcvbfgdf';
+
 // Create and Save a new Tutorial
 exports.create = (req, res) => {
   // Validate request
